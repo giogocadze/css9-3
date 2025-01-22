@@ -1,0 +1,334 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0E0E0E;
+}
+
+.moviescontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+    max-width: 840px;
+    align-items: center;
+    width: 100%;
+    padding: 16px 0px;
+}
+
+.tvseries {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.movie {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.series {
+    color: #7B7B7B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.arleneContenc {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.photo {
+    border-radius: 200px;
+    border: 1px solid #A00;
+}
+
+.moveofmonth {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    max-width: 250px;
+    width: 100%;
+}
+
+.batman {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+
+}
+
+.backgroundnumberone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/batmobil.png') center/cover no-repeat;
+    z-index: 1;
+    border-radius: 16px;
+
+}
+
+.backgroundnumbertwo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/batman.svg') center/contain no-repeat;
+    background-position: right;
+    z-index: 2;
+}
+
+.textdiv {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    padding: 40px;
+    gap: 91px;
+}
+
+.batmancontainer_ {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    max-width: 840px;
+    width: 100%;
+}
+
+.moveofmonth {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    max-width: 308px;
+    width: 100%;
+}
+
+.batinfo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.fantasy {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.infomrationbatman {
+    color: #7B7B7B;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.buttonDiv__ {
+    cursor: pointer;
+    padding: 12px 24px;
+    border-radius: 8px 32px;
+    background: #A00;
+    box-shadow: 5px 2px 11.9px 0px #A00;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+}
+
+.maincontent {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.reccomended {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    max-width: 530px;
+    width: 100%;
+}
+
+.Recommended__ {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+.inputtypes {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.search__ {
+    background: #191919;
+    border: none;
+    outline: none;
+    color: #FFF;
+}
+
+.search {
+    width: 269px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-radius: 24px;
+    background: #191919;
+    padding: 8px 16px 8px 12px;
+
+}
+
+.search__::placeholder:hover {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.search:hover {
+    border-radius: 24px;
+    border: 1px solid #A00;
+    background: #191919;
+}
+
+.year {
+    border-radius: 24px;
+    background: #191919;
+    padding: 8px 12px 8px 16px;
+}
+
+.select {
+    background: #191919;
+    border: none;
+    color: #7B7B7B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    outline: none;
+
+}
+
+.select option {
+    color: #FFF;
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    background: #818181;
+}
+
+.image-container {
+    position: relative;
+
+
+}
+
+.watchnow {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.3s ease;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.watch {
+    display: flex;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px 32px;
+    background: #A00;
+    box-shadow: 5px 2px 11.9px 0px #A00;
+}
+
+.image-container:hover .watchnow {
+    opacity: 1;
+}
+
+.movieconent {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.moveWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 241px;
+}
+
+.image-container:hover img {
+    filter: blur(2px);
+}
+@media screen  and (min-width:768px) and (max-width:1023px){
+    .maincontent, .moveWrapper, .movieconent {
+        padding: 0px 32px;
+    }
+
+}
